@@ -941,7 +941,7 @@ li span {
     position: absolute;
     bottom: -31px;
     right: 97px;
-    background-image: url(../img/arrow-left.png);
+    background-image: url(../img/arrow-left.svg);
     border: none;
     font-size: 0;
     width: 32px;
@@ -954,7 +954,7 @@ li span {
     position: absolute;
     bottom: -31px;
     right: 16px;
-    background-image: url(../img/arrow-right.png);
+    background-image: url(../img/arrow-right.svg);
     border: none;
     font-size: 0;
     width: 32px;
@@ -1603,13 +1603,3 @@ li span {
 }
 
 .webp .header { background-image: url(../img/bg-main.webp); }
-
-@media screen and (max-width: 860px) {
-
-  .webp button.slick-prev.slick-arrow { background-image: url(../img/arrow-left.webp); }
-}
-
-@media screen and (max-width: 860px) {
-
-  .webp button.slick-next.slick-arrow { background-image: url(../img/arrow-right.webp); }
-}
